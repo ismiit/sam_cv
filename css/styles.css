@@ -1,0 +1,91 @@
+body {
+  background-color: #FFEDDB;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #3E497A;
+  height: 50px;
+}
+.navbar .navlink {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Teko', sans-serif;
+}
+.navbar .navlink:hover {
+  background-color:  #04AA6D;
+  height: 20px;
+  border-radius: 30px;
+}
+#active{
+  background-color: #04AA6D;
+  height: 20px;
+    border-radius: 30px;
+}
+
+h2, h3 {
+  color: #655D8A;
+}
+
+.intro {
+  background-color: #EDCDBB;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.mypic {
+  width: 230px;
+  height: 230px;
+}
+
+.aipic {
+  position: absolute;
+  right: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.datapic {
+  position: absolute;
+  left: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.myname {
+  /*font-family:"Copperplate",Fantasy;*/
+  font-family: 'Sacramento', cursive;
+  /*font-family: 'Pacifico', cursive;*/
+  /*font-family: 'Mitr', sans-serif;*/
+  /*font-family: 'Rubik Mono One', sans-serif;*/
+  font-size: 90px;
+  color: #313552;
+  text-align: center;
+}
+
+.bio {
+  width: 800px;
+  margin: 0;
+}
+
+.post {
+  font-family: 'Space Mono', monospace;
+  /*font-family: 'Bebas Neue', cursive;*/
+  font-size: 30px;
+  color: #FC4F4F;
+}
+
+.desc {
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+hr {
+  border-top-color: white;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 4%;
+}
