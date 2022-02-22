@@ -6,6 +6,7 @@ body {
 .navbar {
   background-color: #3E497A;
   height: 50px;
+  width: 100%;
 }
 .navbar .navlink {
   float: left;
@@ -35,6 +36,8 @@ h2, h3 {
   background-color: #EDCDBB;
   padding-bottom: 20px;
   padding-top: 50px;
+  width: 100%;
+
 }
 
 .mypic {
