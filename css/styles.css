@@ -1,3 +1,12 @@
+/*font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Mitr', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Space Mono', monospace;
+font-family: 'Teko', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
 body {
   background-color: #FFEDDB;
   margin: 0;
@@ -29,15 +38,13 @@ body {
 }
 
 h2, h3 {
-  color: #655D8A;
+  color: #B8405E;
 }
 
 .intro {
   background-color: #EDCDBB;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   padding-top: 50px;
-  width: 100%;
-
 }
 
 .mypic {
@@ -68,6 +75,7 @@ h2, h3 {
   font-size: 90px;
   color: #313552;
   text-align: center;
+  margin: 0;
 }
 
 .bio {
@@ -85,10 +93,108 @@ h2, h3 {
 .desc {
   font-size: 25px;
   font-family: 'Ubuntu', sans-serif;
+  width:400px;
 }
 hr {
   border-top-color: white;
   border-style: dotted none none;
   border-width: 5px;
   width: 4%;
+}
+.middle-container{
+  background-color: #FFFCDC;
+}
+.flook{
+font-weight: 600;
+font-family: 'Inconsolata', monospace;
+border: solid #EDD2F3;
+border-width : 10px 300px 10px 300px;
+margin: auto auto 10px auto ;
+font-size: 50px;
+color: #051367;
+}
+
+.middle-container{
+padding: 50px 0 50px 0;
+}
+
+.profile1{
+  margin: 70px auto 130px auto;
+  width:50%;
+}
+
+.welc-me{
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  line-height: 2;
+
+}
+.gif-a{
+width:25%;
+border-radius: 15px;
+float:left;
+margin-right: 30px;
+}
+.gif-b{
+  width:25%;
+  border-radius: 15px;
+  float:right;
+  margin-left :30px;
+}
+.gif-c{
+width:30%;
+border-radius: 15px;
+float:left;
+margin-right: 30px;
+}
+.head{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+.bottom-container{
+  background-color: #22577E;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  font-size: 40px;
+  padding:10px;
+}
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+
+  color: white;
+}
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+
+  color: orange;
+}
+.fa-github {
+
+  color: black;
+}
+.fa-whatsapp {
+  color: yellow;
+}
+h6{
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+h5{
+  margin: 0;
 }
